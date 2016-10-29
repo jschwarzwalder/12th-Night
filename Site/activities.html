@@ -1,31 +1,55 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>The web site of 12thnight2017</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>An Tir 12th Night</title>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+	<div id="style"></div>
+
   </head>
-  <body>
-    <h1>Welcome to my Website!</h1>
+  <body  class="blue-grey darken-4 ">
+	<div id="header"></div>
+    <script>
+        $("#header").load("includes/header.html");
+        $("#style").load("includes/styles.html");
 
-    <p>This is a paragraph! Here's how you make a link: <a href="http://neocities.org">Neocities</a>.</p>
+    </script>
+	  <div class="section no-pad-bot" id="index-banner">
+    <div class="container z-depth-3 blue-grey darken-2">
+      <br><br>
+      <h2 class="header center amber-text lighten-3-text" 
+	  style="text-shadow: 1px 0px 1px #b71c1c , 0px 1px 1px #ffab00 , 
+						  2px 1px 1px #b71c1c , 1px 2px 1px #ffab00 ,
+						  3px 2px 1px #b71c1c , 2px 3px 1px #ffab00 ,
+						  4px 3px 1px #b71c1c , 3px 4px 1px #ffab00 ,
+						  5px 4px 1px #b71c1c , 4px 5px 1px #ffab00 ,
+						  6px 5px 1px #b71c1c , 5px 6px 1px #ffab00 ,
+						  7px 6px 1px #b71c1c ">
+       Activities
+      </h2>
+      <div class="row center">
+      
+        <p class="grey-text lighten-5-text">TBA</p>
+      </div>
 
-    <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
 
-    <p>Here's how you can add an image:</p>
-    <img src="/neocities.png">
+    </div>
+  </div>
 
-    <p>Here's how to make a list:</p>
 
-    <ul>
-      <li>First thing</li>
-      <li>Second thing</li>
-      <li>Third thing</li>
-    </ul>
+  
+	
+	<div id="footer"></div>
 
-    <p>To learn more HTML/CSS, check out these <a href="http://neocities.org/tutorials">tutorials</a>!</p>
-  </body>
+
+    <!--  Scripts-->
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+   <script>
+        $("#footer").load("includes/footer.html");
+    </script>
+
+	</body>
 </html>

@@ -1,31 +1,42 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>The web site of 12thnight2017</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>An Tir 12th Night</title>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+	<div id="style"></div>
+
   </head>
-  <body>
-    <h1>Welcome to my Website!</h1>
+  <body  class="blue-grey darken-4 ">
+	<div id="header"></div>
+    <script>
+        $("#header").load("includes/header.html");
+        $("#style").load("includes/styles.html");
 
-    <p>This is a paragraph! Here's how you make a link: <a href="http://neocities.org">Neocities</a>.</p>
+    </script>
+	
+	<div class="container">
+		<div class="section grey-text lighten-5-text">
 
-    <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
+			<div class="section">
 
-    <p>Here's how you can add an image:</p>
-    <img src="/neocities.png">
+<h2>Entertainment</h2>
+ <p>More Details comming soon.</p>
+			</div>
+		</div>
+	 </div>
+	
+	<div id="footer"></div>
 
-    <p>Here's how to make a list:</p>
 
-    <ul>
-      <li>First thing</li>
-      <li>Second thing</li>
-      <li>Third thing</li>
-    </ul>
+    <!--  Scripts-->
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+   <script>
+        $("#footer").load("includes/footer.html");
+    </script>
 
-    <p>To learn more HTML/CSS, check out these <a href="http://neocities.org/tutorials">tutorials</a>!</p>
-  </body>
+	</body>
 </html>
