@@ -1,0 +1,23 @@
+  html {
+    font-family: 'Eagle Lake', cursive;
+  }
+      
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+  .header-shadow {
+    text-shadow: 1px 0px 1px #b71c1c , 0px 1px 1px #ffab00 , 
+						  2px 1px 1px #b71c1c , 1px 2px 1px #ffab00 ,
+						  3px 2px 1px #b71c1c , 2px 3px 1px #ffab00 ,
+						  4px 3px 1px #b71c1c , 3px 4px 1px #ffab00 ,
+						  5px 4px 1px #b71c1c , 4px 5px 1px #ffab00 ,
+						  6px 5px 1px #b71c1c , 5px 6px 1px #ffab00 ,
+						  7px 6px 1px #b71c1c ;
+  }
